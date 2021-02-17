@@ -13,6 +13,7 @@ function blurring() {
 
 loadingText.innerText =`${load}%`
 loadingText.style.opacity = scale(load, 0, 100, 1, 0)
+backgroundImage.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 
 
 }
